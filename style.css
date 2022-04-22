@@ -1,0 +1,8 @@
+/*
+    Nesse campo, o input do news passa a ocupar metade da largura em tela com a largura mínima (a partir de) de 768px
+*/
+@media(min-width: 768px){ 
+    .news-input{
+        width: 50%;
+    }
+}
