@@ -20,6 +20,10 @@
     
 
 </head>
+
+
+
+
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
@@ -56,6 +60,10 @@
             </div>   
         </div>  
     </nav> <!--Para saber mais a respeito dos breakpoints, checar documentação-->
+
+
+
+
 
     <!--Showcase-->
     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
@@ -97,6 +105,10 @@
         </div>
     </section>
 
+
+
+
+
     <!--Newsletter-->
     <section class="bg-primary text-light p-5">
         <div class="container">
@@ -118,61 +130,76 @@
         </div>
     </section>
 
+
+
+
+
+
     <!--Boxes-->
     <section class="p-5">
         <div class="container">
             <div class="row text-center g-4"> <!--O argumento g adiciona um gap entre os elementos-->
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="h1 mb-3"><!--Ao invés de colocarmos esse item como h1, o próprio bootstrap fornece uma classe que torna qualquer objeto como h1-->
-                            <i class="bi bi-laptop"></i>
+                <div class="col-md card-group">
+                    <div class="card bg-dark text-light h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="h1 mb-3"><!--Ao invés de colocarmos esse item como h1, o próprio bootstrap fornece uma classe que torna qualquer objeto como h1. A propriedade h-100 aplica a mesma altura a todos os cards dependendo do conteúdo-->
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Virtual
+                            </h3>
+                            <p class="card-text">
+                                Disponibilizamos um Ambiente Vitual de Aprendizagem (AVA) que contém todos os materiais que serão utilizados ao decorrer do curso, como por exemplo: vídeoaulas, apostilas, exercícios práticos e conteúdos interativos.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-auto">Saiba mais</a>  
                         </div>
-                        <h3 class="card-title mb-3">
-                            Virtual
-                        </h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, molestiae.
-                        </p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
                     
-                <div class="col-md">
+                <div class="col-md card-group">
                     <div class="col-md">
-                        <div class="card bg-secondary text-light">
-                            <div class="h1 mb-3"><!--Ao invés de colocarmos esse item como h1, o próprio bootstrap fornece uma classe que torna qualquer objeto como h1-->
-                                <i class="bi bi-person-square"></i>
+                        <div class="card bg-secondary text-light h-100">
+                            <div class="card-body d-flex flex-column">
+                                <div class="h1 mb-3"><!--Ao invés de colocarmos esse item como h1, o próprio bootstrap fornece uma classe que torna qualquer objeto como h1. A propriedade h-100 aplica a mesma altura a todos os cards dependendo do conteúdo-->
+                                    <i class="bi bi-person-square"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Híbrido
+                                </h3>
+                                <p class="card-text">
+                                    Para você que gosta do modelo virtual, mas ainda precisa de apoio presencial, temos a opção ideal para você: com essa opção, você consegue o melhor desses modelos. Com horários flexíveis, é possível escolher o melhor horário para os encontros e as aulas.
+                                </p>
+                                <a href="#" class="btn btn-dark mt-auto">Saiba mais</a>
                             </div>
-                            <h3 class="card-title mb-3">
-                                Híbrido
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, molestiae.
-                            </p>
-                            <a href="#" class="btn btn-dark">Saiba mais</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md">
+                <div class="col-md card-group">
                     <div class="col-md">
-                        <div class="card bg-dark text-light">
-                            <div class="h1 mb-3"><!--Ao invés de colocarmos esse item como h1, o próprio bootstrap fornece uma classe que torna qualquer objeto como h1-->
-                                <i class="bi bi-people"></i>
+                        <div class="card bg-dark text-light h-100">
+                            <div class="card-body d-flex flex-column">
+                                <div class="h1 mb-3"><!--Ao invés de colocarmos esse item como h1, o próprio bootstrap fornece uma classe que torna qualquer objeto como h1. A propriedade h-100 aplica a mesma altura a todos os cards dependendo do conteúdo-->
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <h3 class="card-title mb-3">
+                                    Presencial
+                                </h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At neque facere libero ipsam harum minima delectus molestiae animi repellendus saepe.
+                                </p>
+                                
+                                <a href="#" class="btn btn-primary mtn-auto">Saiba mais</a>
                             </div>
-                            <h3 class="card-title mb-3">
-                                Presencial
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, molestiae.
-                            </p>
-                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
 
     <!--Learn Sections-->
     <section id="learn"class="p-5">
@@ -220,6 +247,9 @@
             </div>
         </div>
     </section>
+
+
+
 
 
     <!--FAQ-->
@@ -316,6 +346,9 @@
         </div>
     </section>
 
+
+
+    <!--Intrucors-->
     <section id="instructors" class="p-5 bg-primary">
         <div class="container">
             <h2 class="text-center text-white">Nossos instrutores</h2>
@@ -324,7 +357,7 @@
             </p>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3"><!--Em telas médias, teremos o espaço ocupado de 3 colunas, e em telas grandes teremos o espaço ocupado de 6 colunas-->
-                    <div class="card bg-light">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
                             <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt=""><!--API que fornece imagens de pessoas aleatórias gratuitamente-->
                             <h3 class="card-title mb-3">João Silva</h3>
@@ -338,7 +371,7 @@
 
 
                 <div class="col-md-6 col-lg-3"><!--Em telas médias, teremos o espaço ocupado de 3 colunas, e em telas grandes teremos o espaço ocupado de 6 colunas-->
-                    <div class="card bg-light">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
                             <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt=""><!--API que fornece imagens de pessoas aleatórias gratuitamente-->
                             <h3 class="card-title mb-3">Marina Chaves</h3>
@@ -351,7 +384,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3"><!--Em telas médias, teremos o espaço ocupado de 3 colunas, e em telas grandes teremos o espaço ocupado de 6 colunas-->
-                    <div class="card bg-light">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" alt=""><!--API que fornece imagens de pessoas aleatórias gratuitamente-->
                             <h3 class="card-title mb-3">Eduardo Santos</h3>
@@ -365,7 +398,7 @@
 
 
                 <div class="col-md-6 col-lg-3"><!--Em telas médias, teremos o espaço ocupado de 3 colunas, e em telas grandes teremos o espaço ocupado de 6 colunas-->
-                    <div class="card bg-light">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
                             <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt=""><!--API que fornece imagens de pessoas aleatórias gratuitamente-->
                             <h3 class="card-title mb-3">Sara Ribeiro</h3>
@@ -413,7 +446,7 @@
     <!--Footer-->
     <footer class="p-5 bg-dark text-white text-center position-relative">
         <div class="container">
-            <p class="lead">Copyright &copy; 2022 Frontend Bootcamp</p>
+            <p class="lead">Copyright &copy; 2022 Front-end Bootcamp</p>
 
             <a href="" class="position-absolute bottom-0 end-0 p-5">
                 <i class="bi bi-arrow-up-circle h1"></i>
