@@ -2,8 +2,8 @@
 
 [BR]Este projeto tem a finalidade de aplicar alguns conceitos de Desenvolvimento Front-End utilizando o framework Bootstrap 5.
 Gostaria de agradecer e dar os devidos créditos ao [bradtraversy](https://github.com/bradtraversy) pelo aprendizado ao decorrer do desenvolvimento da página.
-Você pode visualizar o projeto [clicando aqui](https://yuribotelho.github.io/Bootstrap-Project/).
+Você pode visualizar o projeto [clicando aqui](https://yuribotelho.github.io/Front-End-Bootcamp/).
 
 [EN]This project apply some concepts of Front-End Development using the Bootstrap 5 framework.
 I would like to thank and give due credit to [bradtraversy](https://github.com/bradtraversy) for all the learning spread throughout the development of the page.
-You can view the project [clicking here](https://yuribotelho.github.io/Bootstrap-Project/).
+You can view the project [clicking here](https://yuribotelho.github.io/Front-End-Bootcamp/).
